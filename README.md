@@ -1,6 +1,7 @@
 # responsive-navbar
-To create responsive navbars easily
+To create responsive navbars easily. 
 
+CDN :
 ```HTML
 <script src = "https://cdn.jsdelivr.net/gh/knaagar/responsive-navbar/index.js"></script>
 ```
