@@ -1,6 +1,11 @@
+/*
+  get the attribute value of d-style
+*/
 let stylea = document.getElementById("navbar").getAttribute("d-style");
 
-
+/* 
+  Styling on value = true
+*/
 let styling = `
   .responsive-navbar {
   overflow: hidden;
@@ -61,6 +66,10 @@ let styling = `
 }
   `;
 
+/* 
+  Styling on value = false
+*/
+
 let styling2 = `
   .responsive-navbar {
   overflow: hidden;
@@ -103,6 +112,9 @@ let styling2 = `
 }
   `;
 
+/* 
+  Append the style tag to the head according to the d-style value
+*/
 if (stylea === 'true') {
   let st = document.createElement('style');
   st.innerText = styling;
@@ -116,6 +128,9 @@ else if (stylea === 'false' || stylea === null) {
 }
 
 
+/* 
+  Responsive-ness function
+*/
 
 function nav() {
   var x = document.getElementById("navbar");
