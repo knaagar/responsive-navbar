@@ -27,4 +27,4 @@ CDN :
 | ------------- | ------------- | -------|
 | `d-style`       | `true` or `false` | true - if you want a bit styled navbar |
 
-> This is in development and more attributes, flexibility and professionalism will be added in the future. More styling features will be added too to quickly create a navbar and get right started away with the website.
+> This is in development and more attributes, flexibility and professionalism will be added in the future. More styling features will be added to quickly create a navbar and get right started away with the website. 
