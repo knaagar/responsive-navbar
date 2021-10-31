@@ -26,3 +26,4 @@ To create responsive navbars easily
 | ------------- | ------------- | -------|
 | `d-style`       | `true` or `false` | true - if you want a bit styled navbar |
 
+> This is in development and more attributes, flexibility and professionalism will be added in the future
