@@ -1,5 +1,5 @@
-# responsive-navbar
-To create responsive navbars easily. 
+# responsive-navbar (wihout dependency)
+To create responsive navbars easily. [Using HTML and CSS only]
 
 CDN :
 ```HTML
@@ -26,5 +26,28 @@ CDN :
 | Attribute     | Possible Values | Work |
 | ------------- | ------------- | -------|
 | `d-style`       | `true` or `false` | true - if you want a bit styled navbar |
+
+# responsive-navbar vue
+
+To create responsive navbars easily. [Using Vue.js]
+
+CDN :
+```HTML
+<script src = "https://cdn.jsdelivr.net/gh/knaagar/responsive-navbar/vue/vue.js"></script>
+```
+
+# Usage
+```HTML
+<!-- wrap things inside app id element -->
+<div id="app">
+    <!-- add data in array of objects form in the format:
+      {
+        url: "site_url.com",
+        title: "Heading"
+      }
+     -->
+      <nav-bar :data="[{url: 'x.com', title: 'Home'},{url: 'x.com', title: 'About'},{url: 'x.com', title: 'Contact'}]"></nav-bar>
+</div>
+```
 
 > This is in development and more attributes, flexibility and professionalism will be added in the future. More styling features will be added to quickly create a navbar and get right started away with the website. 
