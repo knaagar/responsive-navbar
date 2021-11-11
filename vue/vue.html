@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Vue Component</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="app">
+    <!-- add data in array of objects form in the format:
+      {
+        url: "site_url.com",
+        title: "Heading"
+      }
+     -->
+      <nav-bar :data="[{url: 'x.com', title: 'Home'},{url: 'x.com', title: 'About'},{url: 'x.com', title: 'Contact'}]"></nav-bar>
+  </div>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	<script src="vue.js"></script>
+  
+</body>
+</html>
