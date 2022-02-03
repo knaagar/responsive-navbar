@@ -1,7 +1,7 @@
 # responsive-navbar (wihout dependency)
 To create responsive navbars easily. [Using HTML and CSS only]
 
-CDN :
+CDN (should be put in body tag below the navbar html):
 ```HTML
 <script src = "https://cdn.jsdelivr.net/gh/knaagar/responsive-navbar/index.js"></script>
 ```
