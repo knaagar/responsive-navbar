@@ -17,7 +17,7 @@ CDN (should be put in body tag below the navbar html):
 		<a href="#">About</a>
 <!-- Menu bar icon which will be visible on small screens -->
 		<a href="javascript:void(0);" class="icon" onclick="nav()">
-			<b>&#9776;</b>
+		<b>&#9776;</b>
   </a>
 </div>
 ```
