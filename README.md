@@ -50,4 +50,4 @@ CDN :
 </div>
 ```
 
-> This is in development and more attributes, flexibility and professionalism will be added in the future. More styling features will be added to quickly create a navbar and get right started away with the website. 
+> This is in development and more attributes, flexibility and professionalism will be added in the future. More styling features will be added too.
