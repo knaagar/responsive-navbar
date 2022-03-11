@@ -5,9 +5,9 @@ Vue.component('nav-bar', {
   template: `
   <div>
   <div class="responsive-navbar" id="navbar">
-		<a v-for="d in data" :href="d.url">{{d.title}}</a>
-		<a href="javascript:void(0);" class="icon" onclick="nav()">
-			<b>&#9776;</b>
+	<a v-for="d in data" :href="d.url">{{d.title}}</a>
+	<a href="javascript:void(0);" class="icon" onclick="nav()">
+	<b>&#9776;</b>
   </a>
 </div>
 </div>
@@ -15,7 +15,7 @@ Vue.component('nav-bar', {
 });
 
 let styling = `
-  .responsive-navbar {
+ .responsive-navbar {
   overflow: hidden;
 }
 
@@ -57,8 +57,8 @@ let styling = `
   `;
 
 let st = document.createElement('style');
-  st.innerText = styling;
-  document.head.appendChild(st);
+st.innerText = styling;
+document.head.appendChild(st);
 
 var app = new Vue({
   el: "#app"
