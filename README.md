@@ -10,12 +10,12 @@ CDN (should be put in body tag below the navbar html):
 ```HTML
 <!-- Add class as 'responsive-navbar' and id as 'navbar' -->
 <div d-style="true" class="responsive-navbar" id="navbar">
-<!-- Add links (as many as you want) -->
+		<!-- Add links (as many as you want) -->
 		<a href="#">Home</a>
 		<a href="#">News</a>
 		<a href="#">Contact</a>
 		<a href="#">About</a>
-<!-- Menu bar icon which will be visible on small screens -->
+		<!-- Menu bar icon which will be visible on small screens -->
 		<a href="javascript:void(0);" class="icon" onclick="nav()">
 		<b>&#9776;</b>
   </a>
