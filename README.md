@@ -50,4 +50,4 @@ CDN :
 </div>
 ```
 
-> This is in development and more attributes, flexibility and professionalism will be added in the future. More styling features will be added too.
+> This is in development.
