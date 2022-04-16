@@ -1,3 +1,6 @@
+/*
+Re-usable Vue component
+*/
 Vue.component('nav-bar', {
   props: {
     data: Array
@@ -13,6 +16,10 @@ Vue.component('nav-bar', {
 </div>
   `
 });
+
+/*
+Styling
+*/
 
 let styling = `
  .responsive-navbar {
@@ -56,14 +63,25 @@ let styling = `
 }
   `;
 
+/*
+Appending style tag
+*/
+
 let st = document.createElement('style');
 st.innerText = styling;
 document.head.appendChild(st);
+
+/*
+Vue app
+*/
 
 var app = new Vue({
   el: "#app"
 });
 
+/*
+Responsive-ness function
+*/
 
 function nav() {
   var x = document.getElementById("navbar");
