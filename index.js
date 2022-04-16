@@ -7,7 +7,7 @@ let stylea = document.getElementById("navbar").getAttribute("d-style");
   Styling on value = true
 */
 let styling = `
-  .responsive-navbar {
+.responsive-navbar {
   overflow: hidden;
   font-family: sans-serif;
 }
@@ -71,7 +71,7 @@ let styling = `
 */
 
 let styling2 = `
-  .responsive-navbar {
+.responsive-navbar {
   overflow: hidden;
 }
 
