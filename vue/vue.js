@@ -3,13 +3,13 @@ Vue.component('nav-bar', {
     data: Array
   },
   template: `
-  <div>
-  <div class="responsive-navbar" id="navbar">
-	<a v-for="d in data" :href="d.url">{{d.title}}</a>
-	<a href="javascript:void(0);" class="icon" onclick="nav()">
-	<b>&#9776;</b>
-  </a>
-</div>
+<div>
+	<div class="responsive-navbar" id="navbar">
+		<a v-for="d in data" :href="d.url">{{d.title}}</a>
+			<a href="javascript:void(0);" class="icon" onclick="nav()">
+			<b>&#9776;</b>
+  		</a>
+	</div>
 </div>
   `
 });
