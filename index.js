@@ -1,12 +1,16 @@
-/*
-  get the attribute value of d-style
-*/
-let stylea = document.getElementById("navbar").getAttribute("d-style");
+/*************************
+  get the attribute value of d-style and d-float-right
+  d-float-right: in progress
+*************************/
 
-/* 
+let wantStyle = document.getElementById("navbar").getAttribute("d-style");
+let wantFloat = document.getElementById("navbar").getAttribute("d-float-right");
+
+/*************************
   Styling on value = true
-*/
-let styling = `
+*************************/
+
+const styling = `
 .responsive-navbar {
   overflow: hidden;
   font-family: sans-serif;
@@ -66,11 +70,11 @@ let styling = `
 }
   `;
 
-/* 
+/*************************
   Styling on value = false
-*/
+*************************/
 
-let styling2 = `
+const styling2 = `
 .responsive-navbar {
   overflow: hidden;
 }
@@ -112,31 +116,30 @@ let styling2 = `
 }
   `;
 
-/* 
+/*************************
   Append the style tag to the head according to the d-style value
-*/
-if (stylea === 'true') {
-  let st = document.createElement('style');
+*************************/
+
+if (wantStyle === "true") {
+  let st = document.createElement("style");
   st.innerText = styling;
   document.head.appendChild(st);
-
 }
-else if (stylea === 'false' || stylea === null) {
-  let st = document.createElement('style');
+else if (wantStyle === "false" || wantStyle === null) {
+  let st = document.createElement("style");
   st.innerText = styling2;
   document.head.appendChild(st);
 }
 
-
-/* 
+/*************************
   Responsive-ness function
-*/
+*************************/
 
 function nav() {
-  var x = document.getElementById("navbar");
-  if (x.className === "responsive-navbar") {
-    x.className += " responsive";
+  let el = document.getElementById("navbar");
+  if (el.className === "responsive-navbar") {
+    el.className += " responsive";
   } else {
-    x.className = "responsive-navbar";
+    el.className = "responsive-navbar";
   }
 }
