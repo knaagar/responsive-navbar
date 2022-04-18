@@ -21,7 +21,7 @@ Vue.component('nav-bar', {
 Styling
 */
 
-let styling = `
+const styling = `
  .responsive-navbar {
   overflow: hidden;
 }
@@ -67,7 +67,7 @@ let styling = `
 Appending style tag
 */
 
-let st = document.createElement('style');
+const st = document.createElement('style');
 st.innerText = styling;
 document.head.appendChild(st);
 
@@ -84,10 +84,10 @@ Responsive-ness function
 */
 
 function nav() {
-  var x = document.getElementById("navbar");
-  if (x.className === "responsive-navbar") {
-    x.className += " responsive";
+  var el = document.getElementById("navbar");
+  if (el.className === "responsive-navbar") {
+    el.className += " responsive";
   } else {
-    x.className = "responsive-navbar";
+    el.className = "responsive-navbar";
   }
 }
